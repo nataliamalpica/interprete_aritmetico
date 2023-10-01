@@ -16,7 +16,7 @@ function entrada()
   #Leemos la primera linea
   linea = readline()
 
-  # Mientras la primera linea NO este vacía, la función la concatena
+  # Mientras la primera linea NO esté vacía, la función la concatena
    while length(linea) > 0
      cadena = cadena * linea
   
