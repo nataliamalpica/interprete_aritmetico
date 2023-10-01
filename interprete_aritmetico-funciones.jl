@@ -31,6 +31,17 @@ end
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 "En esta función eliminamos los caractéres que no afectan la validez de la cadena ni afectan el valor de la expresión."
 function eliminarCaracteresIgnorados(cadena)
   #Estos son los caractéres que no son validos de acuerdo a las instrucciones
@@ -63,6 +74,18 @@ function eliminarCaracteresIgnorados(cadena)
   
   return nuevaCadena
 end 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -151,10 +174,19 @@ end
 
 
 
+
+
+
+
+
+
+
+
+
+
 "Verifica si una cadena es únicamente un número. Para ello debe estar conformada por dígitos y a lo más un punto decimal."
 function numero(num, inicioNum, cadena)
   #El parámetro inicioNum sirve para relacionar la posición en el candidato a número con la posición en la cadena completa. Por ejemplo, la posición del caracter 1 en el número corresponde al guardado en inicioNum en la cadena original. Por lo tanto, la posición i en número corresponde a la i + inicioNum - 1 en la cadena completa.
-
 
   
   #cuenta el total de puntos decimales
@@ -263,8 +295,7 @@ function subexpresionBase(subexpresion1, inicioSubexpresion, cadena)
 
 
 
-
-    
+  
 
     finNumero = inicioNumero
             
@@ -304,8 +335,6 @@ function subexpresionBase(subexpresion1, inicioSubexpresion, cadena)
       i = i + 1
       end
     end
-
-
 
 
   
